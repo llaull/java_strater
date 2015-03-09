@@ -22,6 +22,11 @@ public class Starter_1 {
          Test t = new Test();
          t.faireUnTruc();*/
         
+        /*tp etudiant*/
+        Edutient e1 = new Edutient("tata");
+        e1.saisieNotes();
+        e1.calculeNotes();
+        e1.afficheNotes();
     }
 
     static void go() {
