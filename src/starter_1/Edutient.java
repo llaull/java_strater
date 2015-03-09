@@ -35,7 +35,7 @@ public class Edutient {
         
         for(int v : notes){
             moyenne += v;
-            System.err.println("-> " + moyenne);
+            System.out.println("-> " + moyenne);
         }
         moyenne = moyenne/notes.length;
     }
@@ -45,7 +45,7 @@ public class Edutient {
      */
     public void afficheNotes(){
         
-        System.out.println("note pour l'édutiant " + name + " : ");
+        System.out.println("Notes pour l'édutiant " + name + " : ");
         for(int v : notes){
             System.out.print(v + "/");
         }
