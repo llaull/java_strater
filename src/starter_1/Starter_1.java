@@ -15,25 +15,26 @@ public class Starter_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        go();
+        //go();
         //goTest();
-        
+
         /*ou 
-        Test t = new Test();
-        t.faireUnTruc();*/
+         Test t = new Test();
+         t.faireUnTruc();*/
+        
     }
-    
-    static void go(){
+
+    static void go() {
         Starter_1 starter = new Starter_1();
         starter.faireUnTruc();
     }
-    
-    static void goTest(){
+
+    static void goTest() {
         Test t = new Test();
         t.faireUnTruc();
     }
-    
-    void faireUnTruc(){
+
+    void faireUnTruc() {
         int nombre = 37;
         System.out.println("coucou toi " + nombre);
     }
