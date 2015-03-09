@@ -2,7 +2,7 @@ package starter_1;
 
 public class Edutient {
     
-    private String name;
+    private String name; //osef NetBeans suxe
     private int[] notes;
     private int moyenne;
     
@@ -33,7 +33,7 @@ public class Edutient {
      */
     public void calculeNotes(){
         
-        for(int v : notes){
+        for(int v : notes){ //foreach de java
             moyenne += v;
             System.out.println("-> " + moyenne);
         }
