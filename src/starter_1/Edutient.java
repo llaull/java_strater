@@ -2,7 +2,9 @@ package starter_1;
 
 public class Edutient {
     
-    private String name; //osef NetBeans suxe
+    
+    //liste de propriete / attributs
+    private String name; //osef NetBeans sux
     private int[] notes;
     private int moyenne;
     
@@ -12,10 +14,12 @@ public class Edutient {
     }
     
     /**
-     * 
+     * metholde expriment une action
+     * c'est une fonction dans la classe
      */
     public void saisieNotes(){
         
+        //variables
         int nbNotes = Saisie.lireInt("nombre de notes ? ");
         
         notes = new int[nbNotes];
